@@ -223,9 +223,6 @@
     margin: 0 auto;
     padding: 50px 0;
   }
-  .legwork-survey-container header {
-    padding: 50px 0 100px 0;
-  }
   .legwork-survey-container .svg-selection-options {
     display: flex;
     flex-direction: row;
