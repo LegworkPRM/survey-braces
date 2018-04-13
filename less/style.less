@@ -225,6 +225,10 @@
     // Remove padding from the formstack body
     .fsBody {
       padding: 0;
+      margin: 0;
+      form {
+        padding: 0;
+      }
     }
     
     // Restyle input fields
@@ -239,6 +243,7 @@
         
         &:focus {
           border: 1px solid @lw-indigo;
+          box-shadow: none;
         }
       }
     }
@@ -259,6 +264,7 @@
         margin-top: 25px;
         font-weight: 300;
         transition: all 0.3s cubic-bezier(0.23, 0.85, 1, 1);
+        outline: none;
         
         &:hover {
           box-shadow: 0 5px 20px rgba(69,91,100,0.2);

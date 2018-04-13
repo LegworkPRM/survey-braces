@@ -179,6 +179,10 @@
 }
 .legwork-survey-container .submit-info-cta .fsBody {
   padding: 0;
+  margin: 0;
+}
+.legwork-survey-container .submit-info-cta .fsBody form {
+  padding: 0;
 }
 .legwork-survey-container .submit-info-cta .fsNameFirst input,
 .legwork-survey-container .submit-info-cta .fsNameLast input,
@@ -194,6 +198,7 @@
 .legwork-survey-container .submit-info-cta .fsNameLast input:focus,
 .legwork-survey-container .submit-info-cta .fsLastRow input:focus {
   border: 1px solid #44a8de;
+  box-shadow: none;
 }
 .legwork-survey-container .submit-info-cta .fsPagination {
   text-align: left;
@@ -207,6 +212,7 @@
   margin-top: 25px;
   font-weight: 300;
   transition: all 0.3s cubic-bezier(0.23, 0.85, 1, 1);
+  outline: none;
 }
 .legwork-survey-container .submit-info-cta .fsSubmit input.fsSubmitButton:hover {
   box-shadow: 0 5px 20px rgba(69, 91, 100, 0.2);
